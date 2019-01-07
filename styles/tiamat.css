@@ -1,58 +1,127 @@
 .body-container {
-  background-color: #303030;
-  font-size: 20px;
-  color: #E8E8E8
+ 	background-color: #303030;
+ 	font-size: 20px;
+ 	color: #E8E8E8
 }
 
 .header-container, .footer-container {
-  background-color: #0046b7;
+ 	background-color: #2f2f87;
 }
 
 /* Headers */
 
 .header-container {
-    width: 100%;
-    height: 85px;
+  width: 100%;
+  height: 85px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccb77a;
 }
 
 .header-icon {
-  width: 50px;
-  padding: 5px 30px;
+	width: 50px;
+	padding: 5px 30px;
 }
 
 .title-container {
-  width: 15%;
-  display: inline-block;
-  position: absolute;
-  right: 15px;
-  top: 15px;
+	width: 25%;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
 }
 
 .title {
+	text-align: right;
+	font-size: 1.875em;
+	padding: 15px;
+}
+
+/* Content */
+
+.content {
+	display: inline-flex;
+	white-space: nowrap;
+	width: 100%;
+  margin: 1.3% 0;
+}
+
+.body-section, .sidebar {
+	display: inline-block;
+}
+
+.body-section {
+	width: 80%;
+	white-space: normal;
+}
+
+.header-section {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 1.875em;
+	text-align: center;
+	color: #4c4634;
+	background-color: #ccb77a;
+  margin: 15px 30px 0 30px;
+  padding-top: 2%;
+  border-radius: 25px 25px 0 0;
+}
+
+.article-section {
+ 	font-family: "Times New Roman", Times, serif;
+  background-color: #ccb77a;
+  color: #4c4634;
+  margin: 0 30px;
+  padding: 0 20px;
+}
+
+.article-section p {
+  padding: 40px;
+  width: 90%;
+}
+
+.article-section p:last-of-type {
+  padding-top: 15px;
+}
+
+.footer-section {
+  background-color: #ccb77a;
+  color: #4c4634;
   text-align: right;
-  font-size: 20px;
-  padding: 15px;
+  margin: 0 30px 15px 30px;
+  padding: 0 30px 20px 30px;
+  border-radius: 0 0 25px 25px;
+}
+
+.sidebar {
+	background-color: #5e5eba;
+	white-space: normal;
+	width: 20%;
+}
+
+.list {
+  	font-size: 15px;
 }
 
 /* Footer */
 
 .footer-container {
-  text-align: center;
-  height: 10%;
+	text-align: center;
+	height: 10%;
+  border-top-style: solid;
+  border-top-color: #ccb77a;
 }
 
 .footer-content {
-  width: 90%;
-  padding: 1.5%;
-  font-size: 16px;
-  color: #e0e0e0
+	width: 90%;
+	padding: 1.5%;
+	font-size: 16px;
+	color: #e0e0e0
 }
 
 .footer-content strong {
-  color: #000000;
+	color: #000000;
 }
 
 #author {
-  font-size: 18px;
-  color: #16184c;
+	font-size: 18px;
+	color: #16184c;
 }
