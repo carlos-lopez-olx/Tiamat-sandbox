@@ -5,9 +5,13 @@
 Tiamat sandbox is a repository for upload different test that i made to check my knowledge.
 
 # Issues
- - CSS:
+  - CSS:
     - Selectors
     - Box-Model
+    - PseudoClass
+
+  - HTML:
+    - Basic structure
 
 
 By Charloz
